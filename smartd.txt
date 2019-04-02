@@ -1,0 +1,1 @@
+Device: %{DATA:harddisk} \[%{DATA:interface}\], %{GREEDYDATA:smart_msg}: %{INT:smart_id:int} %{DATA:smart_name} (changed from %{INT:smart_from:int} to %{INT:smart_to:int}|%{GREEDYDATA:rest})
